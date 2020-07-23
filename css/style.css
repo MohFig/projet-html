@@ -11,10 +11,7 @@ figure{
     margin-right: auto;
     margin-left: auto;
 }
-td:hover{
-    background-color:red;
-}
-img{
+     img{
     width: 50%;
     border: 4mm ridge rgba(170, 50, 220, .6);
 }
@@ -29,6 +26,12 @@ table{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+td:hover {
+    background-color:red;
+}
+body div:nth-child(1){
+    background-color: blue;
 }
 figcaption{
     margin-top: -20px;
